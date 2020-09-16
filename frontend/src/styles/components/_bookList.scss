@@ -1,0 +1,11 @@
+.book-list-sec {
+    .book-list {
+        @include clean-list;
+        flex-wrap: wrap;
+        justify-content: center;
+        // justify-content: space-around;
+        li {
+            margin: 0.4rem;
+        }
+    }
+}
